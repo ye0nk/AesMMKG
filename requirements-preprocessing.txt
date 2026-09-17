@@ -1,0 +1,9 @@
+-r requirements.txt
+aiofiles
+aiohttp
+openai
+python-dotenv
+Pillow
+faiss-cpu
+# Default CLIP backend used by the graph preprocessing script.
+open-clip-torch

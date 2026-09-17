@@ -1,0 +1,47 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local credentials (publish only the empty example)
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+
+# Dataset contents are distributed separately; retain the format documentation.
+/datasets/*
+!/datasets/README.md
+
+# Raw preprocessing inputs and generated graphs/features
+dataset/
+my_kg/
+image_relation_*/
+
+# Training artifacts and experiment logs
+/trained_model/
+/tensorboard/
+/runs/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.log
+events.out.tfevents.*
+metrics.tsv
+
+# Local editor and agent state
+.idea/
+.vscode/
+.DS_Store
+.agents/
+.codex/

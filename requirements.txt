@@ -1,0 +1,9 @@
+# Dependency inventory, not a validated lockfile.
+# Use the versions from the original experiment environment for reproduction.
+numpy
+pandas
+scipy
+torch
+tqdm
+# Required by the candidate original utils/metrics.py; see docs/PUBLISHING.md.
+scikit-learn
